@@ -84,7 +84,7 @@ public class ButtonageScript : MonoBehaviour {
                 case 8:
                 case 9:
                     btnTexts[i].text = "";
-                    int choice3 = UnityEngine.Random.Range(0, colorMats.Length);
+                    int choice3 = UnityEngine.Random.Range(0, colorMats.Length - 1);
                     chosenBtns[i] = choice3;
                     btnRends[i].material = colorMats[choice3];
                     int choice4 = UnityEngine.Random.Range(0, borderSet.Length);
