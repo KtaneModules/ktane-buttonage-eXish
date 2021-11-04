@@ -157,7 +157,7 @@ public class ButtonageScript : MonoBehaviour {
                 Debug.LogFormat("[Buttonage #{0}] Pressed button {1} in Chinese reading order", moduleId, chineseOrderNums.IndexOf(Array.IndexOf(buttons, pressed)));
             else
                 Debug.LogFormat("[Buttonage #{0}] Pressed button {1} in reading order", moduleId, Array.IndexOf(buttons, pressed));
-            if (Array.IndexOf(buttons, pressed) == correctBtn)
+            if ((Array.IndexOf(buttons, pressed) == correctBtn && !chineseOrder) || (Array.IndexOf(buttons, pressed) == chineseOrderNums.IndexOf(correctBtn) && chineseOrder))
             {
                 moduleSolved = true;
                 GetComponent<KMBombModule>().HandlePass();
