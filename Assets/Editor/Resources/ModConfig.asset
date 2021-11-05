@@ -23,13 +23,13 @@ MonoBehaviour:
     PDF: https://ktane.timwi.de/PDF/Buttonage.pdf
 
 
-    Buttonage (buttonageModule) v1.0.3
+    Buttonage (buttonageModule) v1.0.4
 
     Module Idea by Tachatat18
 
     Implemented by eXish
 
     Twitch Plays supported'
-  version: 1.0.3
+  version: 1.0.4
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 5dbd6b505a5787d49bc62d73e84c8f03, type: 3}
